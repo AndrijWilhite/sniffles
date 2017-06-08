@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-iot-device-sdk": "^1.0.14",
+    "geoip-lite": "^1.2.1",
     "mongodb": "^2.2.26",
     "mongojs": "^2.4.0",
     "mongoose": "^4.9.8"

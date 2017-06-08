@@ -4,7 +4,6 @@ const pcap = require('pcap'),
     pcap_session = pcap.createSession('en0', '');
 const MongoClient = require('mongodb').MongoClient
 const assert = require('assert');
-const tests = require('./config.js').tests;
 const deviceIP = require('os').networkInterfaces().en0.map(function(interface) {
     return interface.address;
 })[1];
